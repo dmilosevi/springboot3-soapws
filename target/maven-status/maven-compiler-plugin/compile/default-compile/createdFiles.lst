@@ -1,0 +1,8 @@
+isodd\test\soap\springboot3withjakarta\CustomerResponse.class
+isodd\test\soap\springboot3withjakarta\ObjectFactory.class
+isodd\test\soap\springboot3withjakarta\package-info.class
+com\soap\springboot3\service\IsOddService.class
+com\soap\springboot3\endpoint\isOddEndpoint.class
+isodd\test\soap\springboot3withjakarta\CustomerRequest.class
+com\soap\springboot3\config\SoapConfig.class
+com\soap\springboot3\Springboot3Application.class

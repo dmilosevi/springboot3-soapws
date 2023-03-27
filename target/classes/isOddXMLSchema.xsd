@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://SpringBoot3WithJakarta.SOAP.Test.isOdd"
+	elementFormDefault="qualified">
+
+	<xsd:element name="CustomerRequest">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="firstNumber" type="xsd:int" />
+				<xsd:element name="secondNumber" type="xsd:int" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="CustomerResponse">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="sum" type="xsd:int" />
+				<xsd:element name="isOdd" type="xsd:boolean" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
